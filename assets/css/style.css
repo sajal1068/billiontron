@@ -316,6 +316,10 @@ ul.top-navbar li:nth-child(1) a{
 
   /* CTA */
 
+  /*  footer */
+     
+  /* footer */
+
 
   .gtco-testimonials {
     position: relative;
@@ -382,7 +386,7 @@ ul.top-navbar li:nth-child(1) a{
     color: #666666;
   }
   .gtco-testimonials .card p {
-    font-size: 18px;
+    font-size: 0.9rem;
     color: #555;
     padding-bottom: 15px;
   }
