@@ -39,6 +39,9 @@ p.font-itelic{
 .bg-purpal-blue{
     background-image: linear-gradient(#590995, #150485);
 }
+.bg-blue-purpal{
+  background-image: linear-gradient(#150485, #590995);
+}
 ul{
     list-style: none;
     margin: 0;
@@ -275,12 +278,14 @@ ul.top-navbar li:nth-child(1) a{
       box-sizing: border-box;
       display:flex;
       align-items: center;
+      flex-direction: column;
       position: relative;
       background:#1F064B;
       border:solid #01E8FE 1.5px ;
-      min-height: 190px;
+      min-height: 200px;
       border-radius: 5px;
       margin-bottom: 90px;
+      justify-content: center;
 
   }
   .feture-box .icon-box{
@@ -298,6 +303,18 @@ ul.top-navbar li:nth-child(1) a{
       align-items: center;
       justify-content: center;
   }
+  .feture-box h5{
+      font-size: 1.56rem;
+      color:#01E8FE;     
+      font-weight: 600;
+      margin-top: 80px;
+  }
+  .feture-box p{
+    font-size: 1.25rem;
+    color:#ffffff;
+    text-align: center;
+   
+}
   .mt-10{
       margin-top: 70px;
   }
@@ -318,6 +335,47 @@ ul.top-navbar li:nth-child(1) a{
   }
 
   /* CTA */
+
+
+  /* How it work */
+  .how-it-work-box{
+    width:100%;
+    position: relative;
+    background:#1C1C5B;
+    border-radius: 5px;
+    box-sizing: border-box;
+    min-height:180px;
+    margin: 80px auto 30px;
+    z-index: 99;
+    padding: 15px 15px;
+  }
+  .how-it-work-box svg{
+    margin: -60px auto 0;
+  }
+  .how-it-work-box::after{
+    position:absolute;
+    content: "";
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background:#1C1C5B;
+    top:-60px;
+    left:0;
+    right:0;
+    margin:auto;
+    z-index: -1;
+  }
+  .how-it-work-box h6{
+    font-weight: 600;
+    font-size: 1.19rem;
+    margin-top: 25px;
+  }
+  .how-it-work-box p{    
+    font-size: 0.99rem;
+  }
+  /* How it work */
+
+
 
   /*  footer */
      
