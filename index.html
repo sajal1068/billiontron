@@ -18,7 +18,7 @@
     
     <div id="wrapper">
 
-        <section class="bg-blue h-110 d-flex align-items-center">
+        <section class="bg-blue h-110 d-flex align-items-center position-sticky">
 
             <div class="container">
                 <div class="row">
@@ -143,8 +143,8 @@ Blockchain. Lightning Fast transactions with lowest transaction fees.</p>
                       <img src="assets/images/our-promise.png" class="img-fluid mx-auto d-bloack">
                   </div>
 
-                  <div class="col-sm-8">
-                      <div class="font-32 text-white font-">
+                  <div class="col-sm-8 heading-inline">
+                      <div class="heading text-white font-">
                         Our promise
                       </div>
 
@@ -584,6 +584,12 @@ Blockchain. Lightning Fast transactions with lowest transaction fees.</p>
     <script src="assets/js/wow.min.js"></script> 
     <script src="assets/js/owl.carousel.min.js"></script> 
     <script>
+
+window.addEventListener("scroll", (event) => {
+    let scroll = this.scrollY;
+    console.log(scroll)
+});
+
           console.clear();
           const app = (() => {
             let body;

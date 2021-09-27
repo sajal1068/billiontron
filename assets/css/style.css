@@ -117,14 +117,15 @@ ul.top-navbar li:nth-child(1) a{
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-
     text-align: center;
     text-transform: capitalize;
     padding-bottom: 5px;
     font-weight: 700;
   }
   
-  .heading {
+    
+  .heading-inline .heading{
+    display:inline-block  
     
   }
   .heading:before {
@@ -158,9 +159,13 @@ ul.top-navbar li:nth-child(1) a{
     height: 30px;
     width: 30px;
     position: fixed;
+    position: relative;
     z-index: 9999;
     left: 50px;
     top: 30px;
+
+    left: 0px;
+    top: 3px;
     cursor: pointer;
   }
   .menu-icon__line {
