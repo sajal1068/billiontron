@@ -65,7 +65,9 @@
                                 <span class="menu-icon__line menu-icon__line-left"></span>
                                 <span class="menu-icon__line"></span>
                                 <span class="menu-icon__line menu-icon__line-right"></span>
-                              </div>
+                                <span class="menu">MENU</span>
+                               
+                              </div> 
                               
                               <div class="nav">
                                 <div class="nav__content">
@@ -95,17 +97,18 @@
           <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-
-                      <div class="revolution">Revolution</div>
+                     <div class="revolution">Revolution</div>
                      <div class="text-white font-32">
                       Welcome to the world’s most trusted <span class="d-block"></span>
                       TRON based investment platform
                      </div>
+                      <p class="font-20 text-lightblue">Now discover the power of TEAMWORK through the TRON <span class="d-block"></span>
+                      Blockchain. Lightning Fast transactions with lowest transaction fees.</p>
 
-
-                    <p class="font-20 text-lightblue">Now discover the power of TEAMWORK through the TRON <span class="d-block"></span>
-Blockchain. Lightning Fast transactions with lowest transaction fees.</p>
-
+                      <span>
+                        <a href="javascript:void();" class="btn btn-rounded bdr-2 font-99 ml-3 shadow">Get Starts</a>
+                        <a href="javascript:void();" class="btn-rounded bg-pink font-99 shadow">Contact us</a>
+                      </span>
                 </div>
             </div>
           </div>
@@ -663,6 +666,16 @@ window.addEventListener("scroll", (event) => {
     carousels();
   })(jQuery);
 })();
+
+// scroll Header JS
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1){  
+        $('header').addClass("sticky");
+    }
+    else{
+        $('header').removeClass("sticky");
+    }
+});
     </script>
     
   </body>

@@ -122,6 +122,13 @@ ul.top-navbar li:nth-child(1) a{
     padding-bottom: 5px;
     font-weight: 700;
   }
+
+
+  .position-sticky{
+    top: 1px;
+    z-index: 9;
+  }
+  
   
     
   .heading-inline .heading{
@@ -164,8 +171,8 @@ ul.top-navbar li:nth-child(1) a{
     left: 50px;
     top: 30px;
 
-    left: 0px;
-    top: 3px;
+    left: 05px;
+    top: 10px;
     cursor: pointer;
   }
   .menu-icon__line {
@@ -184,7 +191,17 @@ ul.top-navbar li:nth-child(1) a{
     float: right;
   }
 
-
+  .menu {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    top: -30px;
+    margin-left: 35px;
+}
+.nav-active .menu{
+    color:#000;
+}
   
   .nav {
     position: fixed;
