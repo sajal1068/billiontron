@@ -27,7 +27,7 @@ a:hover{
     min-height: 110px;
 }
 .font-20{
-    font-size: 1.25rem;
+    font-size: 1.25rem!important;
 }
 .font-99{
   font-size: 0.99rem;
@@ -35,12 +35,18 @@ a:hover{
 .font-32{
     font-size: 2.0rem;
 }
+.font-22{
+  font-size: 1.38rem;
+}
 .font-700{
     font-weight: 700;
 }
 p.font-itelic{
     font-size: 1.25rem;
     font-style: italic;
+}
+.font-25{
+  font-size:1.56rem;
 }
 .bg-purpal-blue{
     background-image: linear-gradient(#590995, #150485);
@@ -552,6 +558,57 @@ ul.top-navbar li:nth-child(1) a{
   }
      
   /* footer */
+
+  /* Business Page */
+
+  .cms-page{
+    width:100%;
+    background: url('../images/titile-bg.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:285px;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cms-page::after{
+    content: "";
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 1;
+    background:rgba(36, 36, 123, 0.72);
+  }
+  .cms-page .cms-heading{
+    font-size: 36px;
+    color:#fff;
+    text-align: center;
+    font-weight: 700;
+    z-index: 9;
+    position:inherit;
+
+  }
+  .cms-page .cms-heading a{
+    color: #fff;
+  }
+  .business-para p{
+    font-size:1.25rem;
+    color:#fff;
+    font-weight: 300;
+    font-style: italic;
+  }
+  .rewards-box {
+    width:100%;
+    margin-bottom: 60px;
+  }
+
+  /* Business page */
 
 
   .gtco-testimonials {
