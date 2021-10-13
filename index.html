@@ -7,24 +7,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <title>Billiontron</title>
   </head>
   <body>
     
     <div id="wrapper">
-
-        <section class="bg-blue h-110 d-flex align-items-center position-sticky">
-
+        <section class="bg-blue h-110 d-flex align-items-center header">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 logo">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" width="327.703" height="90" viewBox="0 0 327.703 90">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="327.703" height="90" viewBox="0 0 327.703 90">
                             <g id="Group_1251" data-name="Group 1251" transform="translate(-858.546 -1352.759)">
                               <g id="Group_1247" data-name="Group 1247">
                                 <path id="Path_8364" data-name="Path 8364" d="M1067.779,1367.707l-25.967,27.929-35.583-42.877Z" fill="#fff"/>
@@ -48,20 +47,20 @@
                                 <path id="Path_8375" data-name="Path 8375" d="M1111.737,1393.172a10.042,10.042,0,0,0-10-10.06h-18.764v32.815h3.5v-29.256h15.264a6.5,6.5,0,0,1,.077,12.993l-12.459-.009v16.264h3.5v-12.687h8.213l6.7,12.687h4.076l-7-13.2A10.1,10.1,0,0,0,1111.737,1393.172Z" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="0.25"/>
                               </g>
                             </g>
-                          </svg>
-                          
-                        <!-- <img src="assets/images/logo.png" class="img-fluid" alt="Billiontron"> -->
+                          </svg> -->   
+                          <a href="/">
+                              <img src="assets/images/logo.png" class="img-fluid animate__animated animate__flash" alt="Billiontron">
+                          </a>     
                     </div>
 
                     <div class="col-sm-8">
-
                         <ul class="top-navbar">
-                            <li><a href="javascript:void();">Business policy</a></li>
-                            <li><a href="javascript:void();" class="btn-rounded bg-pink font-20 ml-2 shadow">Login</a></li>
-                            <li><a href="javascript:void();" class="btn-rounded bg-orange font-20 ml-3 mr-2 shadow">Sign Up</a></li>
+                            <li><a href="business-plan.html">Business policy</a></li>
+                            <li><a href="login.html" class="btn-rounded bg-pink font-20 ml-2 shadow">Login</a></li>
+                            <li><a href="registration.html" class="btn-rounded bg-orange font-20 ml-3 mr-2 shadow">Sign&nbsp;Up</a></li>
                             <li>
                               
-                              <div class="menu-icon">
+                              <div class="menu-icon animate__animated animate__flash" >
                                 <span class="menu-icon__line menu-icon__line-left"></span>
                                 <span class="menu-icon__line"></span>
                                 <span class="menu-icon__line menu-icon__line-right"></span>
@@ -72,21 +71,16 @@
                               <div class="nav">
                                 <div class="nav__content">
                                   <ul class="nav__list">
-                                    <li class="nav__list-item">Home</li>
-                                    <li class="nav__list-item">About</li>
-                                    <li class="nav__list-item">Business policy</li>
-                                    <li class="nav__list-item">FAQ</li>
-                                    <li class="nav__list-item">Contact Us</li>
+                                    <li class="nav__list-item"><a href="/">Home</a></li>
+                                    <li class="nav__list-item"><a href="about-us.html">About</a></li>
+                                    <li class="nav__list-item"><a href="business-plan.html">Business Policy</a></li>
+                                    <li class="nav__list-item"><a href="faq.html">FAQ</a></li>
+                                    <li class="nav__list-item"><a href="/">Contact Us</a></li>
                                   </ul>
                                 </div>
                               </div>
                               </li>
-                              
-                              <!-- <div class="site-content">
-                                <h1 class="site-content__headline">Another menu concept</h1>
-                              </div><a href="javascript:void();">MENU</a></li> -->
-                        </ul>
-                        
+                        </ul>                        
                     </div>
                 </div>
             </div>
@@ -102,11 +96,11 @@
                       Welcome to the world’s most trusted <span class="d-block"></span>
                       TRON based investment platform
                      </div>
-                      <p class="font-20 text-lightblue">Now discover the power of TEAMWORK through the TRON <span class="d-block"></span>
+                      <p class="font-20 text-lightblue py-5">Now discover the power of TEAMWORK through the TRON <span class="d-block"></span>
                       Blockchain. Lightning Fast transactions with lowest transaction fees.</p>
 
                       <span>
-                        <a href="javascript:void();" class="btn btn-rounded bdr-2 font-99 ml-3 shadow">Get Starts</a>
+                        <a href="javascript:void();" class="btn btn-rounded bdr-2 font-99 mr-3 shadow">Get Starts</a>
                         <a href="javascript:void();" class="btn-rounded bg-pink font-99 shadow">Contact us</a>
                       </span>
                 </div>
@@ -139,14 +133,15 @@
 
             </section> -->
 
-            <section class="bg-dark-blue pad-100" >
+            <section class="bg-dark-blue our-promise">
+              <div class="line-bg pad-100">
               <div class="container">
                 <div class="row">
-                  <div class="col-sm-4">
+                  <div class="col-12 col-md-4">
                       <img src="assets/images/our-promise.png" class="img-fluid mx-auto d-bloack">
                   </div>
 
-                  <div class="col-sm-8 heading-inline">
+                  <div class="col-12 col-md-8 heading-inline">
                       <div class="heading text-white font-">
                         Our promise
                       </div>
@@ -160,6 +155,7 @@
                       <p class="text-white">The company has a team of experienced and professional investors and market analysts who put the funds of the company into positions which would generate the maximum amount of profit.</p>
                   </div>
                 </div>
+              </div>
               </div>              
             </section>
 
@@ -508,17 +504,10 @@
 
 
 
-        <footer class="bg-purpal-blue">
-         
+      <footer class="bg-purpal-blue">         
         <section class="footer">  
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 1366 326">
-            <defs>
-              <!-- <clipPath id="clip-path">
-                <rect x="1782" width="1366" height="326" fill="none"/>
-              </clipPath> -->
-              <!-- logo -->
-                
-              <!-- logo -->
+            <defs>             
               <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
                 <stop offset="0" stop-color="#0f0240"/>
                 <stop offset="1" stop-color="#150485"/>
@@ -535,30 +524,26 @@
 
           <div class="container">
             <div class="row">
-              <div class="col-sm-12 mt-5">
+              <div class="col-sm-12 mt-5 footer-logo">
                 <img src="assets/images/footer-logo.png" class="img-fluid mx-auto d-block">
               </div>
               <div class="col-12 email-text text-center">
-                <a href="">                  
-                  <svg id="Group_903" data-name="Group 903" xmlns="http://www.w3.org/2000/svg" >
-                  <g id="Group_902" data-name="Group 902" transform="translate(0 0)">
-                    <path id="Path_7723" data-name="Path 7723" d="M40.755,13.385V10.442A1.074,1.074,0,0,0,39.663,9.35H36.387L30.026,3.558a3.818,3.818,0,0,0-5.222,0L18.442,9.4H15.166a1.074,1.074,0,0,0-1.092,1.092v2.943L7.38,19.6a.991.991,0,0,0-.38.76V46.523a1.078,1.078,0,0,0,.285.76,1.222,1.222,0,0,0,.76.332H46.69a1.1,1.1,0,0,0,1.092-1.092V20.886a1.823,1.823,0,0,0-.427-1.187C46.69,18.892,44.886,17.231,40.755,13.385Zm0,2.943c1.852,1.709,3.466,3.181,4.368,4.035L40.755,24.4Zm-14.48-11.2a1.733,1.733,0,0,1,2.279,0S30.548,6.976,33.207,9.4H21.622ZM16.21,11.533H38.571v14.86L28.554,35.651a1.693,1.693,0,0,1-2.326,0L16.21,26.393Zm-2.136,4.8V24.4L9.706,20.364Zm31.571,29.15H9.184V22.833L24.8,37.218a3.87,3.87,0,0,0,2.611,1.044,3.823,3.823,0,0,0,2.611-1L45.645,22.88Z" transform="translate(-7 -2.525)" fill="#fff"/>
-                    <path id="Path_7724" data-name="Path 7724" d="M37.194,42.336A6.2,6.2,0,0,0,38.64,44.36a7.046,7.046,0,0,0,2.314,1.388,7.712,7.712,0,0,0,3.123.521,10.391,10.391,0,0,0,2.487-.231,9.243,9.243,0,0,0,1.909-.636h0a.786.786,0,0,0,0-1.446l-.058-.116a2.251,2.251,0,0,0-1.62-.116h0a4.641,4.641,0,0,1-1.041.231,13.113,13.113,0,0,1-1.62.058,7.659,7.659,0,0,1-2.14-.289,4.165,4.165,0,0,1-1.562-.868,4.666,4.666,0,0,1-.983-1.388,5.089,5.089,0,0,1-.463-1.735,2.384,2.384,0,0,1-.058-.694c0-.289-.058-.578-.058-.925,0-.289.058-.578.058-.868a2.383,2.383,0,0,1,.058-.694,7.633,7.633,0,0,1,.4-1.735,4.666,4.666,0,0,1,.983-1.388,4.549,4.549,0,0,1,1.562-.868,7.607,7.607,0,0,1,2.2-.347,10.792,10.792,0,0,1,2.6.289,3.252,3.252,0,0,1,1.62.752,4.418,4.418,0,0,1,.983,1.33,9.267,9.267,0,0,1,.4,1.909,8.88,8.88,0,0,1,0,2.024,1.971,1.971,0,0,1-.231.925,1.1,1.1,0,0,1-.694.231,1.24,1.24,0,0,1-.694-.231,1,1,0,0,1-.289-.752V34.643a1.072,1.072,0,0,0-.116-.4.488.488,0,0,0-.4-.116H46.044a1.471,1.471,0,0,0-.4.116,1.1,1.1,0,0,0-.174.521v.174a2.466,2.466,0,0,0-.694-.636,2.261,2.261,0,0,0-1.215-.231,2.945,2.945,0,0,0-1.273.289,2.645,2.645,0,0,0-.983.81,5.241,5.241,0,0,0-.636,1.273,7.12,7.12,0,0,0-.174,1.677,6.953,6.953,0,0,0,.174,1.62,2.7,2.7,0,0,0,.694,1.273,2.543,2.543,0,0,0,.983.81,3.431,3.431,0,0,0,1.33.289,2.872,2.872,0,0,0,1.041-.116,2.45,2.45,0,0,0,.694-.231,1.559,1.559,0,0,0,.463-.4,2.515,2.515,0,0,0,.347-.4,2.533,2.533,0,0,0,.925.636,4.058,4.058,0,0,0,1.62.289,3.93,3.93,0,0,0,1.1-.174,2.767,2.767,0,0,0,.983-.578,3.18,3.18,0,0,0,.752-.983,5,5,0,0,0,.347-1.33c0-.4.058-.752.058-1.273,0-.4-.058-.868-.058-1.215a15,15,0,0,0-.521-2.429,4.959,4.959,0,0,0-1.33-2.082,6.766,6.766,0,0,0-2.371-1.388,11.174,11.174,0,0,0-3.7-.521,9.057,9.057,0,0,0-3.239.521,7.219,7.219,0,0,0-2.256,1.446,5.493,5.493,0,0,0-1.388,2.082,6.8,6.8,0,0,0-.578,2.429,2.384,2.384,0,0,0-.058.694v1.967a2.384,2.384,0,0,0,.058.694A9.04,9.04,0,0,0,37.194,42.336Zm7.924-2.776a1.269,1.269,0,0,1-.983.4,1.151,1.151,0,0,1-.925-.4,1.9,1.9,0,0,1-.4-1.388,1.968,1.968,0,0,1,.4-1.446,1.151,1.151,0,0,1,.925-.4,1.269,1.269,0,0,1,.983.4,2.269,2.269,0,0,1,.4,1.446A2.637,2.637,0,0,1,45.118,39.559Z" transform="translate(-23.881 -18.108)" fill="#fff"/>                   
-                  </g>
-                </svg>
+                <a href="" class="email-box">                  
+                  <img src="assets/images/email-icons.png" class="img-fluid">
                 info@billiontron.com
                 </a>
               </div>
               <div class="col-12">
                 <ul class="social-media text-center">
-                  <li><a href=""><img src="assets/images/Group 899.png"></a></li>
-                  <li><a href=""><img src="assets/images/Group 901.png"></a></li>
-                  <li><a href=""><img src="assets/images/Group 900.png"></a></li>                
+                  <li><a href=""><img src="assets/images/facebook.png" class="img-fluid"></a></li>
+                  <li><a href=""><img src="assets/images/twitter.png" class="img-fluid"></a></li>
+                  <li><a href=""><img src="assets/images/youtube.png" class="img-fluid"></a></li>                
                 </ul>
               </div>
             </div>
-          </div>            
-        </footer>
+          </div> 
+        </section>             
+      
         <section class="copywrite">
           <div class="container">
             <div class="row">
@@ -568,10 +553,10 @@
 
               <div class="col-sm-6">
                 <ul class="footer-links">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Know more</a></li>
-                  <li><a href="#">Business Policy</a></li>
-                  <li><a href="#">FAQs</a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="know-more.html">Know more</a></li>
+                  <li><a href="business-plan.html">Business Policy</a></li>
+                  <li><a href="faq.html">FAQs</a></li>
                 </ul>  
               </div>
             </div>
@@ -583,100 +568,9 @@
     
     <script src="assets/js/jquery.min.js"></script>    
     <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script> 
-    <script src="assets/js/wow.min.js"></script> 
+    <script src="assets/js/bootstrap.min.js"></script>     
     <script src="assets/js/owl.carousel.min.js"></script> 
-    <script>
-
-window.addEventListener("scroll", (event) => {
-    let scroll = this.scrollY;
-    console.log(scroll)
-});
-
-          console.clear();
-          const app = (() => {
-            let body;
-            let menu;
-            let menuItems;
-
-            const init = () => {
-              body = document.querySelector("body");
-              menu = document.querySelector(".menu-icon");
-              menuItems = document.querySelectorAll(".nav__list-item");
-
-              applyListeners();
-            };
-
-            const applyListeners = () => {
-              menu.addEventListener("click", () => toggleClass(body, "nav-active"));
-            };
-
-            const toggleClass = (element, stringClass) => {
-              if (element.classList.contains(stringClass))
-              element.classList.remove(stringClass);else
-              element.classList.add(stringClass);
-            };
-
-            init();
-          })();
-
-          wow = new WOW({
-              boxClass:     'wow',      // default
-              animateClass: 'animated', // default
-              offset:       0,          // default
-              mobile:       true,       // default
-              live:         true        // default
-            })
-          wow.init();
-
-          // owl crousal
-
-          (function () {
-  "use strict";
-
-  var carousels = function () {
-    $(".owl-carousel1").owlCarousel({
-      loop: true,
-      center: true,
-      autoplay:true,
-      autoplayTimeout:5000,
-      autoplayHoverPause:true,
-      margin: 0,
-      responsiveClass: true,
-      nav: false,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        680: {
-          items: 2,
-          nav: false,
-          loop: false
-        },
-        1000: {
-          items: 3,
-          nav: true
-        }
-      }
-    });
-  };
-
-  (function ($) {
-    carousels();
-  })(jQuery);
-})();
-
-// scroll Header JS
-$(window).scroll(function() {
-    if ($(this).scrollTop() > 1){  
-        $('header').addClass("sticky");
-    }
-    else{
-        $('header').removeClass("sticky");
-    }
-});
-    </script>
+    <script src="assets/js/custom.js"></script> 
     
   </body>
 </html>
